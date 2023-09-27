@@ -1,0 +1,58 @@
+.row{
+    
+    white-space: normal;
+    justify-content: start;
+}
+    
+    
+
+
+.container-fluid {
+   
+
+
+background-color: blanchedalmond;
+margin-left: 5px;
+margin-right: 5px;
+border: 4px black;
+
+
+
+
+}
+
+.tall1{
+    padding-top: 14px;
+    background-color: rgb(132, 197, 227);
+    height: 100vh;
+    min-width: 215px;
+  
+    border: 4px solid black;
+
+}
+
+.tall2{
+
+    padding-top: 40px;
+    background-color: gainsboro;
+    height: 100vh;
+    min-width: 300;
+   
+    border: 4px solid black;
+}
+
+.tall3{
+ 
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+    min-width: 300px;
+    width: 100%;
+    
+    
+    
+   
+  
+    border: 4px solid black;
+   
+}
+
