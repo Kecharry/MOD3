@@ -107,3 +107,33 @@ console. log (data);
 
  fetchUsers();
  
+
+
+
+// How to use promises: 
+
+// Promise Basics:
+// Promises are objects that represent a future value or the eventual completion (or failure) of an asynchronous operation.
+// Promises have three states: Pending, Fulfilled (resolved), and Rejected.
+// You create a promise using the Promise constructor, which takes a function with two parameters: resolve and reject.
+// javascript
+// 
+// const myPromise = new Promise((resolve, reject) => {
+//   // Asynchronous operation
+//   // If successful, call resolve(value)
+//   // If an error occurs, call reject(error)
+// });
+// Promise Chaining:
+// Promises can be chained using .then() to execute code once the promise is resolved, and .catch() to handle errors.
+// This chaining makes it easier to manage asynchronous code in a more readable and maintainable way.
+// javascript
+// 
+// myPromise
+//   .then((result) => {
+//     // Handle the successful result
+//   })
+//   .catch((error) => {
+//     // Handle any errors
+//   });
+
+// 
